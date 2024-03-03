@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Coding Final</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1>Creative Coding Final Project</h1>
+    <p>This is the final project using HTML, CSS, and JavaScript.</p>
+    <p id="instruction">Hover over the canvas to magnify the image. <em>Click to add your photo!</em></p>
+    <canvas id="magnifyCanvas" width="800" height="500"></canvas>
+    <label class="custom-file-upload">
+        <input type="file" accept="image/*" id="imageInput" onchange="handleImageUpload()">
+        Upload Photo
+    </label>
+</div>
+</body>
+</html>
